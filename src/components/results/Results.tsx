@@ -246,17 +246,15 @@ export default function Results({ score, onRestart }: ResultsProps) {
         transition={{ duration: 0.6, delay: 1.5 }}
         style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}
       >
-        <motion.a
+        <a
           href="https://businesswithaistrategist.com/services"
           target="_blank"
           rel="noopener noreferrer"
-          whileHover={{ scale: 1.03 }}
-          whileTap={{ scale: 0.97 }}
           className="cta-btn"
           style={{ fontSize: '1rem', padding: '1.1rem 2.5rem' }}
         >
           Explore the AI Accelerator →
-        </motion.a>
+        </a>
         <motion.button
           onClick={onRestart}
           whileHover={{ scale: 1.02 }}
