@@ -19,11 +19,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   }, []);
 
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <title>The Complete Guide to Perplexity | Business With AI Strategist</title>
-        <meta name="description" content="The Complete Guide to Perplexity for UK Small & Medium Businesses. What it does. What you pay for. How to actually use it." />
+        <title>Tool or Agent? Can You Tell the Difference? | Business with AI Strategist</title>
+        <meta name="description" content="Follow Sam — a busy business owner — through three eras of AI. Then test your knowledge with five real-world scenarios." />
       </head>
       <body>{children}</body>
     </html>
