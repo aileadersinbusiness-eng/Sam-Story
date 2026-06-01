@@ -247,7 +247,9 @@ export default function Results({ score, onRestart }: ResultsProps) {
         style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1rem' }}
       >
         <motion.a
-          href="#"
+          href="https://businesswithaistrategist.com/services"
+          target="_blank"
+          rel="noopener noreferrer"
           whileHover={{ scale: 1.03 }}
           whileTap={{ scale: 0.97 }}
           className="cta-btn"
